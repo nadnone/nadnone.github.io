@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+:root{
+    --primary:#0718665f;
+    --secondary:#093475;
+
+    --text_on_primary: #e0f7fa;
+    --text_on_secondary: #e8eaf6;
+
+    --primary_light: #0718665f;
+    --primary_dark: #071866;
+
+
+    --secondary_light: #4e5b705f;
+    --secondary_dark: #093475af;
+
+    --full_screen: 100%;
+
+
+    --pp_contact: url("https://avatars.githubusercontent.com/u/34311347");
+
+    --background_image: url("../res/new_background.jpg");
+}
+
+.scroll_popup{
+    background-color: var(--secondary_dark);
+}
