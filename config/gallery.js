@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "particles_simulation_v1",
+        "desc": "Just for fun, because i was bored",
+        "link": "https://nadnone.github.io/particles_simulation_v1/",
+        "image": "res/particles_simulation_v1.gif"
+    }, 
+    {
         "title": "Pong Color",
         "desc": "Just for fun, because i was bored",
         "link": "https://nadnone.github.io/pong_color/",
