@@ -27,7 +27,7 @@ export default [
     {
         "title": "My imaginary satellite (2021)",
         "desc": "An imaginery satellite on a web page, it was a personal challenge.",
-        "link": "./monSatellite/",
+        "link": "https://nadnone.github.io/Satellite_movement_kepler/",
         "image": "res/satelliteProjet.gif"
     }, 
     {
