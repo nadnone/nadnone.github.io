@@ -1,15 +1,15 @@
 export default [  
     {
-        "title": "particles_simulation_v1",
+        "title": "particles_simulation_v1 (2022)",
         "desc": "Just for fun, because i was bored",
         "link": "https://nadnone.github.io/particles_simulation_v1/",
         "image": "res/particles_simulation_v1.gif"
     }, 
     {
-        "title": "Pong Color",
+        "title": "Pong Color(2022)",
         "desc": "Just for fun, because i was bored",
         "link": "https://nadnone.github.io/pong_color/",
-        "image": "res/pong_color_myown.gif"
+        "image": "https://github.com/nadnone/pong_color/raw/master/res/demo.gif"
     }, 
     {
         "title": "Learn_OpenGL450 (On Break)",
@@ -28,7 +28,7 @@ export default [
         "title": "My imaginary satellite (2021)",
         "desc": "An imaginery satellite on a web page, it was a personal challenge.",
         "link": "https://nadnone.github.io/Satellite_movement_kepler/",
-        "image": "res/satelliteProjet.gif"
+        "image": "https://github.com/nadnone/Satellite_movement_kepler/raw/main/res/satelliteProjet.gif"
     }, 
     {
         "title": "Webpage dashboard (2021)",
