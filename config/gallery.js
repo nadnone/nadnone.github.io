@@ -14,7 +14,7 @@ export default [
     {
         "title": "Pong Color(2022)",
         "desc": "Just for fun, because i was bored",
-        "link": "https://nadnone.github.io/demo_things/pong_color/",
+        "link": "https://nadnone.github.io/pong_color/",
         "image": "https://github.com/nadnone/pong_color/raw/master/res/demo.gif"
     }, 
     {
