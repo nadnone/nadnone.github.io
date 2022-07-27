@@ -1,14 +1,20 @@
 export default [  
     {
+        "title": "smoke (2022)",
+        "desc": "Just for fun, because i was bored",
+        "link": "https://nadnone.github.io/demo_things/smoke/",
+        "image": "res/smoke_demo.gif"
+    },     
+    {
         "title": "particles_simulation_v1 (2022)",
         "desc": "Just for fun, because i was bored",
-        "link": "https://nadnone.github.io/particles_simulation_v1/",
+        "link": "https://nadnone.github.io/demo_things/particles_simulation/",
         "image": "res/particles_simulation_v1.gif"
     }, 
     {
         "title": "Pong Color(2022)",
         "desc": "Just for fun, because i was bored",
-        "link": "https://nadnone.github.io/pong_color/",
+        "link": "https://nadnone.github.io/demo_things/pong_color/",
         "image": "https://github.com/nadnone/pong_color/raw/master/res/demo.gif"
     }, 
     {
