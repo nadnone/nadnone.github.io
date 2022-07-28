@@ -8,7 +8,7 @@ export default [
     {
         "title": "Torch (2022)",
         "desc": "Just for fun, because I was bored",
-        "link": "https://nadnone.github.io/demo_things/smoke/",
+        "link": "https://nadnone.github.io/demo_things/torch/",
         "image": "res/smoke_demo.gif"
     },     {
         "title": "particles_simulation_v1 (2022)",
