@@ -1,6 +1,6 @@
 export default [  
     {
-        "title": "Driving a 2D car on my city (2022)",
+        "title": "Driving a 2D car in my city (2022)",
         "desc": "Just for fun, because I was bored",
         "link": "https://nadnone.github.io/demo_things/cars/",
         "image": "res/car.gif"
