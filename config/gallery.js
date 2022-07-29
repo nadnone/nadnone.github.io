@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "2D rasterizer (2022)",
+        "desc": "Just for learn, because I wanted to learn it",
+        "link": "https://github.com/nadnone/demo_things/blob/main/rasterizer/js/main.js/",
+        "image": "res/rasterizer.png"
+    },     
+    {
         "title": "Driving a 2D car in my city (2022)",
         "desc": "Just for fun, because I was bored",
         "link": "https://nadnone.github.io/demo_things/cars/",
