@@ -3,7 +3,7 @@ export default [
         "title": "Raycaster (2022)",
         "desc": "Just for learn, because I wanted to learn it",
         "link": "https://github.com/nadnone/ray_caster",
-        "image": "https://github.com/nadnone/ray_caster/blob/master/res/demo.png?raw=true"
+        "image": "https://github.com/nadnone/ray_caster/blob/master/res/demo.gif?raw=true"
     },  
     {
         "title": "Rust rasterizer (2022)",
