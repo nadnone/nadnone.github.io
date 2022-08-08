@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "JS 3D cube (2022)",
+        "desc": "Just for learn, because I wanted to learn it",
+        "link": "https://nadnone.github.io/demo_things/3D_test/",
+        "image": "res/3d_cube.gif"
+    },
+    {
         "title": "Raycaster (2022)",
         "desc": "Just for learn, because I wanted to learn it",
         "link": "https://github.com/nadnone/ray_caster",
