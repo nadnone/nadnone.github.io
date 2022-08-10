@@ -1,8 +1,8 @@
 export default [  
     {
-        "title": "JS 3D cube (2022)",
-        "desc": "Just for learn, because I wanted to learn it",
-        "link": "https://nadnone.github.io/demo_things/3D_test/",
+        "title": "demo_things (2022)",
+        "desc": "A compile of codes",
+        "link": "https://nadnone.github.io/demo_things/",
         "image": "res/3d_cube.gif"
     },
     {
@@ -16,42 +16,7 @@ export default [
         "desc": "Just for learn, because I wanted to learn it",
         "link": "https://github.com/nadnone/rust_rasterizer",
         "image": "res/logoNadUnkownSwissMann.png"
-    },  
-    {
-        "title": "JS rasterizer (2022)",
-        "desc": "Just for learn, because I wanted to learn it",
-        "link": "https://nadnone.github.io/demo_things/rasterizer/",
-        "image": "https://github.com/nadnone/demo_things/blob/main/rasterizer/res/demo.gif?raw=true"
-    },     
-    {
-        "title": "Driving a 2D car in my city (2022)",
-        "desc": "Just for fun, because I was bored",
-        "link": "https://nadnone.github.io/demo_things/cars/",
-        "image": "res/car.gif"
-    },         
-    {
-        "title": "Courbe de Bézier (2022)",
-        "desc": "Just for learn, because I wanted to learn it",
-        "link": "https://nadnone.github.io/demo_things/bezier/",
-        "image": "res/bezier.gif"
-    },     
-    {
-        "title": "Torch (2022)",
-        "desc": "Just for fun, because I was bored",
-        "link": "https://nadnone.github.io/demo_things/torch/",
-        "image": "res/smoke_demo.gif"
-    },     {
-        "title": "particles_simulation_v1 (2022)",
-        "desc": "Just for fun, because I was bored",
-        "link": "https://nadnone.github.io/demo_things/particles_simulation/",
-        "image": "res/particles_simulation_v1.gif"
-    }, 
-    {
-        "title": "Pong Color(2022)",
-        "desc": "Just for fun, because I was bored",
-        "link": "https://nadnone.github.io/pong_color/",
-        "image": "https://github.com/nadnone/pong_color/raw/master/res/demo.gif"
-    }, 
+    },   
     {
         "title": "Learn_OpenGL450 (On Break)",
         "desc": "I learnt a bit about OpenGL 4.5, more on GitHub.",
