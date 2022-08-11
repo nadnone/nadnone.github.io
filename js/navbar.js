@@ -56,6 +56,7 @@ function cometo(where)
             break;
         case "contact":
             document.querySelector("#contact .picture").classList.add("spin");
+            window.scrollTo(0,0)
             break;
 
         default:

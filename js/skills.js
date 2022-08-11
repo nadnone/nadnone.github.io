@@ -38,7 +38,7 @@ export default function loadSkills()
         let rand = Math.floor(Math.random() * max);
         document.querySelector("#skills img").src = skills_data[rand].media
 
-    }, 6000)
+    }, 10000)
 
 }
 

@@ -33,7 +33,7 @@
 
     #skills svg .pourcents {
         fill: var(--primary_dark);
-        transition: fill .5s transform 5s;
+        transition: fill .5s;
 
     }
 
