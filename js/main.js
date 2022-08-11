@@ -8,11 +8,13 @@ if (window.innerWidth < 1201)
 {
     mobile_fun();
 }
+
+
 else {
     navbar();
     loadSkills();
     
-    cometo("contact")
+    cometo("gallery")
 }
 loadgallery();
 

@@ -3,6 +3,8 @@ function navbar() {
     let logo_navbar = document.querySelector(".navbar.logo")
     let navbar_items = document.querySelectorAll(".navbar.items")
     
+    logo_navbar.classList.add("spin")
+
     logo_navbar.addEventListener("click", () => {
         
         navbar_items.forEach((item) => {
@@ -56,6 +58,7 @@ function cometo(where)
             break;
         case "contact":
             document.querySelector("#contact .picture").classList.add("spin");
+            document.querySelector(".scroller").classList.remove("display_block");
             window.scrollTo(0,0)
             break;
 

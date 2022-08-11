@@ -22,7 +22,7 @@
 
 
     .spin {
-        transform: rotateZ(-360deg);
+        transform: rotateZ(-360deg) !important;
     }
 
     .display_block {
