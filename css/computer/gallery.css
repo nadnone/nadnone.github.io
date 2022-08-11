@@ -50,6 +50,7 @@
         justify-content: center;
         border-radius: 50%;
         transform: rotate(90deg);
+        user-select: none;
     }
 
     .scroller .arrows:hover

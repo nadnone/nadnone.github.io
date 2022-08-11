@@ -11,8 +11,6 @@ export default function loadSkills()
         "x": canvas.clientWidth/1.5,
         "y": canvas.clientHeight/2
     }
-
-
     
     const rad = 2*Math.PI/skills_data.length
 
@@ -22,15 +20,14 @@ export default function loadSkills()
 
     canvas.innerHTML += "";
 
-
     // EVENTS
-
-    let els = document.querySelectorAll(".skills_pourcent");
+    let els = document.querySelectorAll(".skill_pourcents");
     
-    els.forEach((el) => {
-        el.addEventListener("click", event_graph)
-    })
+    els.forEach(el => el.onclick = event_graph)
 
+    let texts = document.querySelectorAll("#skills .text");
+    
+    texts.forEach(text => text.onclick = event_graph)
 
 
 
@@ -51,14 +48,14 @@ function addLangs(canvas, CENTER)
     for (let i = 0; i < langs_data.length; i++) {
 
         
-        let rect = document.createElement("rect")
+        let rect = document.createElement("path")
 
         let w =  (CENTER.x/2)/langs_data.length
+        let x = (i * w);
+        let y = (CENTER.y*2) - (CENTER.y * langs_data[i].pourcent / 100)
+        let h = CENTER.y*2 - y;
 
-        rect.setAttribute("width", w)
-        rect.setAttribute("height", `${ CENTER.y * langs_data[i].pourcent / 100}px`);
-        rect.setAttribute("y", `${CENTER.y}`);
-        rect.setAttribute("x", `${i * w}px`);
+        rect.setAttribute("d", `M${x} ${y}, L ${x+w} ${y} L${x+w} ${y+h} L ${x} ${y+h} Z`)
         rect.classList.add("pourcents");
         rect.classList.add("rect");
 
@@ -67,8 +64,8 @@ function addLangs(canvas, CENTER)
 
         let text = document.createElement("text")
 
-        text.setAttribute("x", `${(i * w) + w*0.3}px`);
-        text.setAttribute("y", `${CENTER.y + 100}px`);
+        text.setAttribute("x", `${(x) + w*0.3}px`);
+        text.setAttribute("y", `${y + 100}px`);
         text.classList.add("text");
 
         text.innerText = langs_data[i].name
@@ -110,15 +107,17 @@ function addPourcents(canvas, rad, CENTER)
 
         let path = document.createElement("path")
         path.classList.add("pourcents");
-        path.classList.add("skills_pourcent");
-        path.id = `id_${i}`
+        path.classList.add("skill_pourcents");
 
         path.setAttribute("d", `M${CENTER.x} ${CENTER.y} L${px1} ${py1} L${px2} ${py2} Z`)
 
         let text = addText(rad, CENTER, i, rayon);
 
-        canvas.appendChild(path)
-        canvas.appendChild(text)
+        let svg = document.createElement("svg");
+        svg.appendChild(path)
+        svg.id =  `id_${i}`;
+        svg.appendChild(text)
+        canvas.appendChild(svg)
 
     }
 

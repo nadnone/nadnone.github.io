@@ -28,11 +28,12 @@
         height: 40%;
         width: 40%;
         opacity: 98%;
+        user-select: none;
     }
 
     #skills svg .pourcents {
         fill: var(--primary_dark);
-        transition: fill .5s;
+        transition: fill .5s transform 5s;
 
     }
 
@@ -45,6 +46,7 @@
     #skills .text
     {
         fill: var(--text_on_primary);
+        user-select: none;
     }
     #skills .rect:hover
     {
@@ -58,10 +60,8 @@
         transform: rotate(180deg);
     }
 
-    #skills .skills_pourcent
-    {
-        transition: transform 2s;
-
+    #skills .active_triangle {
+        fill: var(--primary_light) !important;
     }
 
 }
