@@ -95,7 +95,7 @@ function addText(rad, CENTER, i, rayon)
 
 function addPourcents(canvas, rad, CENTER)
 {
-    const rayon = canvas.clientHeight/1.5
+    const rayon = canvas.clientHeight/2
 
     for (let i = 0; i < skills_data.length; i++) {
 
