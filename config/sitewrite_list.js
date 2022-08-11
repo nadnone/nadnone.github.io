@@ -4,5 +4,6 @@ export default [
     "fan\xa0=_0",
     "Nadir\xa0(:",
     "Developper\xa0?",
+    "3D\xa0<3",
     "*_*"
 ];

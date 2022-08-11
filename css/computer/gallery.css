@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1201px) {
+
+    #gallery {
+        height: max-content;
+        width: 80%;
+        position: absolute;
+        top: 0;
+        left: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transform: translateX(var(--full_screen_width));
+        background-color: var(--secondary_dark);
+        transition: transform 2.5s;
+        z-index: 0;
+        flex-wrap: wrap;
+    }
+
+    #gallery .vignette {
+        height: 280pt;
+        width: 280pt;
+        margin-right: 20pt;
+        margin-bottom: 20pt;
+        color: var(--text_on_secondary);
+        font-size: 18pt;
+    }
+    #gallery img {
+        height: 80%;
+        width: 100%;
+    }
+
+    .scroller {
+        display: none;
+        position: fixed;
+        top: 250pt;
+        left: 50pt;
+        height: 50%;
+    }
+
+    .scroller .arrows {
+        position: fixed;
+        color: var(--text_on_primary);
+        background-color: var(--primary_dark);
+        height: 120pt;
+        width: 120pt;
+        font-size: 64pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transform: rotate(90deg);
+    }
+
+    .scroller .arrows:hover
+    {
+        background-color: var(--primary_light);
+    }
+
+    .scroller .arrow_down {
+        top: 450pt;
+    }
+}

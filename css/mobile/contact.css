@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1201px) {
+
+    #contact {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #contact .picture {
+        background-image: var(--pp_contact);
+        border-radius: 50%;
+        background-size: 100%;
+        height: 250pt;
+        width: 260pt;
+    }
+
+    #contact .content {
+        height: 20%;
+        display: flex;
+        font-size: 18pt;
+        color: var(--text_on_secondary);
+        align-items: center;
+        justify-content: center;
+    }
+
+}

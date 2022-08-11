@@ -1,0 +1,47 @@
+@import "./navbar.css";
+@import "./contact.css";
+
+@media only screen and (max-width: 1201px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: max-content;
+        scroll-behavior: smooth;
+    }
+
+
+    #gallery {
+        background-color: var(--secondary_dark);
+        color: var(--text_on_secondary);
+        font-size: 18pt;
+    }
+    #gallery .vignette p {
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #gallery .vignette img{
+        height: 50%;
+        width: 100%;
+    }
+
+
+    .arrows {
+        display: none;
+    }
+
+
+
+
+    #skills {
+        display: none;
+    }
+
+}

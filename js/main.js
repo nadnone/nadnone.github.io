@@ -1,48 +1,26 @@
-import { themes_load, theme_menu } from './themes.js';
-import { resize } from './window_resize_mobile.js';
-import { writesite } from './writesitename.js';
-import { goButton, goLink } from './buttons_events.js';
+import loadgallery from "./gallery.js";
+import { cometo, navbar } from "./navbar.js";
+import loadSkills from "./skills.js"
+import {themes_load} from './themes.js'
+import mobile_fun from "./mobile.js"
 
-
-async function preload(){
-
-
-if (window.screen.width > 1201)
+if (window.innerWidth < 1201)
 {
-    resize()
+    mobile_fun();
 }
+else {
+    navbar();
+    loadSkills();
+    
+    cometo("contact")
+}
+loadgallery();
+
+
+
 
 themes_load();
-theme_menu();
+let params = new URLSearchParams(window.location.search);
+let themeid = params.get("theme")
+if (themeid != null) themes_load(themeid)
 
-/* LAUNcHING FUNCTION */
- setTimeout(() => {
-    document.querySelector(".menubg").style.opacity = "1";
-  }, 500);
-
-
-  if (window.screen.width > 1201 || window.screen.orientation.type.includes("landscape")) writesite();
-
-}
-
-
-// Events
-
-window.addEventListener("orientationchange", () => {
-  window.location.reload();
-});
-
-window.addEventListener("DOMContentLoaded", preload);
-
-
-
-// menu
-document.querySelectorAll(".buttons div").forEach((elem) => {
-
-  elem.addEventListener("click", () => {
-    
-    console.log(elem.innerText);
-    goButton(elem.innerText);
-  })
-
-})

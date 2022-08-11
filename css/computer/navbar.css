@@ -1,0 +1,47 @@
+@media only screen and (min-width: 1201px) {
+
+        
+    .navbar.logo {
+        position: fixed;
+        background-image: var(--logo_image);
+        background-size: cover;
+        height: 180pt;
+        width: 180pt;
+        z-index: 20;
+        transition: transform .5s;
+        border-radius: 50%;
+        margin-left: 25pt;
+        filter: brightness(56%);
+    }
+
+    .navbar.logo:hover
+    {
+        transition: filter 0.5s;
+        filter: brightness(100%);
+    }
+
+
+    .navbar.items {
+        display: flex;
+        visibility: hidden;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: none;
+        background-color: var(--primary_dark);
+        color: var(--text_on_primary);
+        height: 80pt;
+        width: 120pt;
+        transition: transform 1.5s;
+        z-index: 20;
+        transition: background-color .5s;
+    }
+
+    .navbar.items:hover
+    {
+        background-color: var(--primary_light);
+    }
+    .show_navbar {
+        transform: translateX(240pt);
+    }
+}

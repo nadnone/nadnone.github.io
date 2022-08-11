@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1201px) {
+    
+    #contact {
+        height: 100%;
+        width: 80%;
+        position: absolute;
+        top: 0;
+        left: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(var(--full_screen_width));
+        transition: transform 2.5s;
+    }
+
+    #contact .picture {
+        background-image: var(--pp_contact);
+        background-size: cover;
+        border-radius: 50%;
+        height: 260pt;
+        width: 260pt;
+        transition: transform 2.5s;
+        
+    }
+    #contact .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text_on_secondary);
+        font-size: 18pt;
+        height: 20%;
+        width: 80%;
+        background-color: var(--secondary_dark);
+    }
+}

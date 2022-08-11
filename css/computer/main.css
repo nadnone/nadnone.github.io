@@ -1,0 +1,37 @@
+@import "navbar.css";
+@import "contact.css";
+@import "gallery.css";
+@import "skills.css";
+
+
+@media only screen and (min-width: 1201px) {
+    
+    html, body
+    {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+        
+    .come_back {
+        transform: translateX(0%) !important;
+    }
+
+
+
+    .spin {
+        transform: rotateZ(-360deg);
+    }
+
+    .display_block {
+        display: block !important;
+    }
+    .visible {
+        visibility: visible !important;
+    }
+
+}
+
+
