@@ -36,7 +36,7 @@ export default function loadgallery()
 
 document.querySelector(".arrow_down").addEventListener("click", () => {
 
-    let factor = gallery_data.length/6;
+    let factor = gallery_data.length;
     let y = document.querySelector("#gallery").scrollHeight/factor
 
     window.scrollBy(0, y)
