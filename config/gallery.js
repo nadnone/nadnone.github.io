@@ -21,7 +21,7 @@ export default [
         "title": "Rust rasterizer (2022)",
         "desc": "Just for learn, because I wanted to learn it",
         "link": "https://github.com/nadnone/rust_rasterizer",
-        "image": "res/logoNadUnkownSwissMann.png"
+        "image": "https://github.com/nadnone/rust_rasterizer/raw/master/res/demo.png"
     },   
     {
         "title": "Learn_OpenGL450 (On Break)",
