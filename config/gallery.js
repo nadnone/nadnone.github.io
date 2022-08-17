@@ -8,8 +8,8 @@ export default [
     {
         "title": "demo_things (2022)",
         "desc": "A compile of codes",
-        "link": "https://nadnone.github.io/demo_things/",
-        "image": "res/3d_cube.gif"
+        "link": "https://github.com/nadnone/demo_things",
+        "image": "https://github.com/nadnone/demo_things/raw/main/3D_test/res/cube_3d.gif"
     },
     {
         "title": "Raycaster (2022)",
