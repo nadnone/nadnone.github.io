@@ -10,11 +10,6 @@ export default [
         "media": "res/screenshot_socketchatpy.jpg",
     },
     {
-        "title": "Algorithmics",
-        "pourcent": 30,
-        "media": "res/skills_media/algorithmics_binary_search.png",
-    },
-    {
         "title": "C/C++",
         "pourcent": 45,
         "media": "res/skills_media/cube_spinning_cpp.gif",
