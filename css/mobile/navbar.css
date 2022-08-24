@@ -24,6 +24,7 @@
         height: 40%;
         width: 100%;
         background-color: var(--primary_dark);
+        color: var(--text_on_secondary);
     }
     .navbar.navbar.items:hover {
         background-color:  var(--primary_light);

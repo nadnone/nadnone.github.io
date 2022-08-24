@@ -62,7 +62,7 @@ export default [
         "secondary": {
             "main": "#4a148c",
             "light": "#7c43bd",
-            "dark": "#12005e5f",
+            "dark": "#12005ea5",
         },
         "text": {
             "primary": "#ffffff",

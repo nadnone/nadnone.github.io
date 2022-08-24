@@ -3,20 +3,21 @@ import { cometo, navbar } from "./navbar.js";
 import loadSkills from "./skills.js"
 import {themes_load} from './themes.js'
 import mobile_fun from "./mobile.js"
+import { discord_clipboard } from "./events.js";
 
 if (window.innerWidth < 1201)
 {
     mobile_fun();
 }
-
-
-else {
+else 
+{
     navbar();
     loadSkills();
     
     cometo("gallery")
 }
 loadgallery();
+discord_clipboard();
 
 
 

@@ -38,3 +38,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* brands logo */ 
+#contact .logo  {
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+}
