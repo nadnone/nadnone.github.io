@@ -19,9 +19,8 @@
     }
         
     .come_back {
-        transform: translateX(0%) !important;
+        transform: translateX(-90%);
     }
-
 
 
     .spin {

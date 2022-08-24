@@ -40,7 +40,6 @@ function cometo(where)
         if (other.innerText !== where)
         {
             other.classList.remove("come_back");
-
         }
 
         

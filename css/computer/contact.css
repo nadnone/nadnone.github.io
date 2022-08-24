@@ -2,15 +2,15 @@
     
     #contact {
         height: 100%;
-        width: 80%;
+        width: 70%;
+        padding-right: 10%;
         position: absolute;
         top: 0;
-        left: 20%;
+        left: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transform: translateX(var(--full_screen_width));
         transition: transform 2.5s;
     }
 

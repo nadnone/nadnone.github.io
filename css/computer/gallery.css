@@ -2,15 +2,14 @@
 
     #gallery {
         height: max-content;
-        width: 80%;
+        width: 90%;
         position: absolute;
         top: 0;
-        left: 20%;
+        left: 100%;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
-        transform: translateX(var(--full_screen_width));
         background-color: var(--secondary_dark);
         transition: transform 2.5s;
         z-index: 0;
@@ -19,7 +18,8 @@
 
     #gallery .vignette {
         height: 280pt;
-        width: 280pt;
+        width: 30%;
+        min-width: 280pt;
         margin-right: 20pt;
         margin-bottom: 20pt;
         color: var(--text_on_secondary);
