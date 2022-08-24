@@ -55,15 +55,18 @@ function cometo(where)
     {
         case "gallery":
             document.querySelector(".scroller").classList.add("display_block");
+            document.documentElement.classList.add("scroll_active");
             break;
         case "contact":
             document.querySelector("#contact .picture").classList.add("spin");
             document.querySelector(".scroller").classList.remove("display_block");
+            document.documentElement.classList.remove("scroll_active");
             window.scrollTo(0,0)
             break;
 
         default:
             document.querySelector(".scroller").classList.remove("display_block");
+            document.documentElement.classList.remove("scroll_active");
             window.scrollTo(0,0)
             break;
     }

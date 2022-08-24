@@ -3,7 +3,7 @@
     .navbar.logo {
         height: 100vh;
         width: 100vw;
-        background-image: var(--logo_image);
+        background-image: none;
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: 50%;
