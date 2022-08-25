@@ -7,7 +7,7 @@ import { discord_clipboard } from "./events.js";
 
 themes_load()
 loadgallery()
-discord_clipboard()
+
 
 if (window.innerWidth < 1201)
 {
@@ -20,7 +20,8 @@ else
     cometo("gallery")
 }
 
+discord_clipboard()
+
 let params = new URLSearchParams(window.location.search)
 let themeid = params.get("theme")
 if (themeid != null) themes_load(themeid)
-
