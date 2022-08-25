@@ -36,17 +36,12 @@
         width: 100%;
         background-color: var(--primary_dark);
         color: var(--text_on_secondary);
+        animation-name: alternate_hover;
+        animation-duration: .25s;
+        animation-iteration-count: 2;
     }
 
-    .navbar.items:first-of-type {
-        animation-name: alternate_hover;
-        animation-duration: .25s;
-        animation-iteration-count: 2;
-    }
     .navbar.items:last-of-type {
-        animation-name: alternate_hover;
-        animation-duration: .25s;
-        animation-iteration-count: 2;
         animation-delay: 1s;
     }
 
