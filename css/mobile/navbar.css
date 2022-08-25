@@ -16,18 +16,38 @@
         width: 100%;
         font-size: 32pt;
         align-items: center;
-        justify-content: center;
+        transform: translateY(5%);    
+    }
+
+    @keyframes alternate_hover {
+
+        from {
+            background-color: var(--primary_dark);
+        }
+        to {
+            background-color: var(--secondary_dark);
+        }
+
     }
 
     .navbar.items {
         display: flex;
-        height: 40%;
+        padding: 20%;
         width: 100%;
         background-color: var(--primary_dark);
         color: var(--text_on_secondary);
     }
-    .navbar.navbar.items:hover {
-        background-color:  var(--primary_light);
+
+    .navbar.items:first-of-type {
+        animation-name: alternate_hover;
+        animation-duration: .25s;
+        animation-iteration-count: 2;
+    }
+    .navbar.items:last-of-type {
+        animation-name: alternate_hover;
+        animation-duration: .25s;
+        animation-iteration-count: 2;
+        animation-delay: 1s;
     }
 
     .show_navbar {
