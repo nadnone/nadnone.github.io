@@ -32,7 +32,7 @@ function cometo(where)
     where = where.toLowerCase();
 
 
-    let others = ["contact", "gallery", "skills"]
+    let others = ["contact", "gallery"]//, "skills"]
 
     for (let i = 0; i < others.length; i++) {
         const other = document.querySelector(`#${others[i]}`)

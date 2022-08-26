@@ -15,7 +15,7 @@ if (window.innerWidth < 1201)
 }
 else 
 {
-    loadSkills()
+    //loadSkills()
     navbar()
     cometo("gallery")
 }
