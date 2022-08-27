@@ -27,11 +27,7 @@ export function discord_clipboard()
 {
     document.querySelector("#discord_logo").addEventListener("click", () => {
 
-        if (confirm('Do you want to copy my Discord name in your clipboard?')) 
-        {
             navigator.clipboard.writeText('Osef#3567');
-            alert('Copied!');
-        }
+            alert('Copied on clipboard!');
     });
 }
-
