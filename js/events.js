@@ -22,12 +22,3 @@ export function event_graph(target)
 
 
 }
-
-export function discord_clipboard()
-{
-    document.querySelector("#discord_logo").addEventListener("click", () => {
-
-            navigator.clipboard.writeText('Osef#3567');
-            alert('Copied on clipboard!');
-    });
-}
