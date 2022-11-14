@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "Sobel Filter (2022)",
+        "desc": "Simple Sobel filter algorithm",
+        "link": "https://github.com/nadnone/sobel_filter",
+        "image": "https://github.com/nadnone/sobel_filter/blob/master/output.jpg?raw=true"
+    },
+    {
         "title": "polygon renderer (2022)",
         "desc": "Tiny 3D engine for learning",
         "link": "https://github.com/nadnone/polygon_renderer",
