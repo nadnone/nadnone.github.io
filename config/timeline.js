@@ -9,7 +9,7 @@ export default [
     },
     {
         "date": "Octobre 2022",
-        "content": "Je commence à trouver quelque alternatives pour avancer professionnellement, je choisi donc à commun accord d'arrêter mon bénévolat pour me consacrer à mes projets"
+        "content": "Je commence à trouver quelques alternatives pour avancer professionnellement, je choisi donc à commun accord d'arrêter mon bénévolat pour me consacrer à mes projets"
     },
     {
         "date": "Août 2022",
@@ -34,10 +34,6 @@ export default [
     {
         "date": "Août 2021",
         "content": "J'essaie de trouver des alternatives pour m'en sortir professionellement, je tente une formation EDX, CS50x"
-    },
-    {
-        "date": "2018",
-        "content": "Je dois faire un CFC en informatique, mes problèmes de santé refont surface. Je découvre en moi une phobie scolaire"
     },
     {
         "date": "fin 2018",
