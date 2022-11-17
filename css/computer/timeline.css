@@ -38,6 +38,13 @@
         background-color: var(--text_on_primary);
     }
 
+    #timeline .last .circle:nth-child(2)
+    {
+        border-radius: 0;
+        background-color: var(--primary);
+        border-color: var(--text_on_primary);
+    }
+
     #timeline .rule .circle:nth-child(2)
     {
        transform: translateX( -40% ) translateY(calc(700%));

@@ -26,6 +26,7 @@ export default function timeline()
         {
             let rule = document.createElement("div")
             rule.className = "rule"
+            if (i == data.length - 1) rule.classList.add("last")
             rule.innerHTML = `<div class="circle"></div><div class="circle"></div>`
             timeline.appendChild(rule)
 

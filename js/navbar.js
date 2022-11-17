@@ -37,21 +37,32 @@ function cometo(where)
 {
     where = where.toLowerCase();
 
-    let others = ["contact", "gallery", "timeline", "skills"]
+    let others_id = ["contact", "gallery", "timeline", "skills"]
+    let others_nb = {
+        "contact": 0,
+        "gallerie": 1,
+        "timeline": 2,
+        "compétences": 3
+    }
 
-    for (let i = 0; i < others.length; i++) {
-        
-        let other = document.querySelector(`#${others[i]}`)
+    const choosed = others_id[others_nb[where]];
+    
+    for (let i = 0; i < others_id.length; i++) {
 
-        if (other.innerText !== where)
-        {
-            other.style.display = "none";
-            other.classList.remove("come_back");
+        let other = document.querySelector(`#${others_id[i]}`)
+
+        if (choosed !== other.id)
+        {   
+            other.classList.remove("come_back")
+
+            setTimeout(() => {
+                other.style.display = "none"
+            }, 1500)
         }
-
         
     }
-    let div = document.querySelector(`#${where}`);
+
+    let div = document.querySelector(`#${choosed}`);
     div.style.display = "";
 
     setTimeout(() => {
@@ -62,7 +73,7 @@ function cometo(where)
 
 
 
-    switch(where)
+    switch(choosed)
     {
         case "gallery":
             open_tab();

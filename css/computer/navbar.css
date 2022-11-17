@@ -32,7 +32,7 @@
         background-color: var(--primary_dark);
         color: var(--text_on_secondary);
         height: 80pt;
-        width: 120pt;
+        width: 140pt;
         transition: transform 1.5s;
         z-index: 20;
         transition: background-color .5s;
