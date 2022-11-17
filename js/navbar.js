@@ -56,7 +56,7 @@ function cometo(where)
 
     setTimeout(() => {
         div.classList.add("come_back");
-    }, 500);
+    }, 1500);
 
 
 

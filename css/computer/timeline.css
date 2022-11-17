@@ -30,17 +30,17 @@
 
     #timeline .rule .circle {
         content: " ";
-        width: 2.5em;
-        height: 2.5em;
+        width: 1.5em;
+        height: 1.5em;
         transform: translateX( -40% );
         border-radius: 50%;
-        border: 1em solid var(--primary);
+        border: 0.5em solid var(--primary);
         background-color: var(--text_on_primary);
     }
 
     #timeline .rule .circle:nth-child(2)
     {
-       transform: translateX( -40% ) translateY(calc(300% + 2.5em));
+       transform: translateX( -40% ) translateY(calc(700%));
     }
     
     #timeline .container

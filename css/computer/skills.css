@@ -27,6 +27,7 @@
         height: 40%;
         width: 40%;
         opacity: 98%;
+        border-radius: 5px;
         user-select: none;
     }
 
