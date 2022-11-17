@@ -41,17 +41,23 @@ function cometo(where)
 
     for (let i = 0; i < others.length; i++) {
         
-        const other = document.querySelector(`#${others[i]}`)
+        let other = document.querySelector(`#${others[i]}`)
 
         if (other.innerText !== where)
         {
+            other.style.display = "none";
             other.classList.remove("come_back");
         }
 
         
     }
     let div = document.querySelector(`#${where}`);
-    div.classList.add("come_back");
+    div.style.display = "";
+
+    setTimeout(() => {
+        div.classList.add("come_back");
+    }, 500);
+
 
 
 
