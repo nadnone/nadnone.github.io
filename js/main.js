@@ -2,6 +2,8 @@ import loadgallery from "./gallery.js";
 import { cometo, navbar } from "./navbar.js";
 import {themes_load} from './themes.js'
 import mobile_fun from "./mobile.js"
+import loadSkills from "./skills.js"
+import timeline from "./timeline.js"
 
 themes_load()
 loadgallery()
@@ -13,9 +15,11 @@ if (window.innerWidth < 1201)
 }
 else 
 {
-    //loadSkills()
+    timeline();
+    loadSkills()
     navbar()
-    cometo("gallery")
+    //cometo("contact")
+    cometo("timeline")
 }
 
 

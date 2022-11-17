@@ -2,6 +2,7 @@
 @import "contact.css";
 @import "gallery.css";
 @import "skills.css";
+@import "timeline.css";
 
 
 @media only screen and (min-width: 1201px) {
@@ -19,7 +20,7 @@
     }
         
     .come_back {
-        transform: translateX(-90%);
+        transform: translateX(-100%);
     }
 
 

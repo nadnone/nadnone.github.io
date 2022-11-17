@@ -9,6 +9,9 @@ export default function mobile_fun()
     // on retire skills, trop compliqué à afficher sur un téléphone
     navbar_items.forEach(el => el.innerText.toLowerCase() == "skills" ? el.remove() : null);
     
+    // on retire timeline, pas prévu pour téléphone
+    navbar_items.forEach(el => el.innerText.toLowerCase() == "timeline" ? el.remove() : null);
+
     
     logo_navbar.addEventListener("click", () => {
         

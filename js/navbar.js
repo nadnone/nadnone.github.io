@@ -26,15 +26,21 @@ function navbar() {
     
 }
 
+function open_tab()
+{
+    document.querySelector(".scroller").classList.add("display_block");
+    document.documentElement.classList.add("scroll_active");
+    window.scrollTo(0,0)
+}
 
 function cometo(where)
 {
     where = where.toLowerCase();
 
-
-    let others = ["contact", "gallery"]//, "skills"]
+    let others = ["contact", "gallery", "timeline", "skills"]
 
     for (let i = 0; i < others.length; i++) {
+        
         const other = document.querySelector(`#${others[i]}`)
 
         if (other.innerText !== where)
@@ -44,23 +50,27 @@ function cometo(where)
 
         
     }
-
-
     let div = document.querySelector(`#${where}`);
     div.classList.add("come_back");
+
+
 
 
     switch(where)
     {
         case "gallery":
-            document.querySelector(".scroller").classList.add("display_block");
-            document.documentElement.classList.add("scroll_active");
+            open_tab();
             break;
+
+        case "timeline":
+            open_tab();
+            break
+
         case "contact":
             document.querySelector("#contact .picture").classList.add("spin");
+            open_tab();
             document.querySelector(".scroller").classList.remove("display_block");
             document.documentElement.classList.remove("scroll_active");
-            window.scrollTo(0,0)
             break;
 
         default:
