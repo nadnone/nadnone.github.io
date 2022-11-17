@@ -34,5 +34,8 @@ export default function timeline()
         
         
     }
+    let container = document.createElement("div");
+    container.className = "container"
+    timeline.appendChild(container)
     
 }
