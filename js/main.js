@@ -18,8 +18,7 @@ else
     timeline();
     loadSkills()
     navbar()
-    //cometo("contact")
-    cometo("timeline")
+    cometo("contact")
 }
 
 
