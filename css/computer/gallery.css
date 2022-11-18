@@ -6,7 +6,7 @@
         position: absolute;
         top: 0;
         left: 100%;
-        display: flex;
+        display: none;
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;

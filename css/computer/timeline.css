@@ -3,6 +3,7 @@
 
     #timeline 
     {
+        display: none;
         position: absolute;
         height: max-content;
         width: 80%;

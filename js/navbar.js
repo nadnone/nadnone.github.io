@@ -65,14 +65,14 @@ function cometo(where)
             other.classList.remove("come_back")
 
             setTimeout(() => {
-                other.style.display = "none"
+                other.style.display = ""
             }, 1500)
         }
         
     }
 
     let div = document.querySelector(`#${choosed}`);
-    div.style.display = "";
+    div.style.display = "flex";
 
     setTimeout(() => {
         div.classList.add("come_back");
