@@ -7,7 +7,7 @@ let terminal = document.querySelector("#write_console")
 function terminal_run()
 {
         
-    let rand = Math.floor(Math.random() * (write_list.length - 1))
+    let rand = Math.floor(Math.random() * write_list.length)
 
     let random_text = write_list[rand];
 

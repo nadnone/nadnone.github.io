@@ -1,3 +1,5 @@
+import { menu_id, menu_index } from "../config/menu.js"
+
 function navbar() {
 
     let logo_navbar = document.querySelector(".navbar.logo")
@@ -5,23 +7,38 @@ function navbar() {
     
     logo_navbar.classList.add("spin")
 
-    logo_navbar.addEventListener("click", () => {
-        
-        navbar_items.forEach((item) => {
+    for (const menu in menu_index) {
+        let item = document.createElement("div")
+        item.classList.add("navbar")
+        item.classList.add("items")
 
-            //item.classList.toggle("show_navbar");
-            //item.classList.toggle("visible");
+        item.innerText = menu
+
+        item.addEventListener("click", (event) => {
             
-            item.addEventListener("click", (event) => {
-                
-                let target = event.target.innerText;
-                cometo(target);
+            let target = event.target.innerText;
+            cometo(target);
 
+        });
 
-            });
+        logo_navbar.appendChild(item)
+    }
+
     
-        })
-    });
+    navbar_items.forEach((item) => {
+
+        //item.classList.toggle("show_navbar");
+        //item.classList.toggle("visible");
+        
+        item.addEventListener("click", (event) => {
+            
+            let target = event.target.innerText;
+            cometo(target);
+
+
+        });
+    
+    })
        
     
 }
@@ -37,19 +54,11 @@ function cometo(where)
 {
     where = where.toLowerCase();
 
-    let others_id = ["contact", "gallery", "timeline", "skills"]
-    let others_nb = {
-        "contact": 0,
-        "gallerie": 1,
-        "timeline": 2,
-        "compétences": 3
-    }
-
-    const choosed = others_id[others_nb[where]];
+    const choosed = menu_id[menu_index[where]];
     
-    for (let i = 0; i < others_id.length; i++) {
+    for (let i = 0; i < menu_id.length; i++) {
 
-        let other = document.querySelector(`#${others_id[i]}`)
+        let other = document.querySelector(`#${menu_id[i]}`)
 
         if (choosed !== other.id)
         {   
@@ -72,20 +81,25 @@ function cometo(where)
 
 
 
-
+    // spin because this is funny to see ma face spinning 
     switch(choosed)
     {
         case "gallery":
+            document.querySelector("#contact .picture").classList.toggle("spin");
             open_tab();
             break;
 
         case "timeline":
+            document.querySelector("#contact .picture").classList.toggle("spin");
             open_tab();
             break
 
         case "contact":
-            document.querySelector("#contact .picture").classList.add("spin");
             open_tab();
+
+            setTimeout(() => {
+                document.querySelector("#contact .picture").classList.toggle("spin");
+            }, 1500);
 
             // scroll button
             //document.querySelector(".scroller").classList.remove("display_block");
