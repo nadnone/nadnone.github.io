@@ -7,7 +7,7 @@ export default function mobile_fun()
     let navbar_items = document.querySelectorAll(".navbar.items")
 
     // on retire skills, trop compliqué à afficher sur un téléphone
-    navbar_items.forEach(el => el.innerText.toLowerCase() == "skills" ? el.remove() : null);
+    navbar_items.forEach(el => el.innerText.toLowerCase() == "compétences" ? el.remove() : null);
     
     // on retire timeline, pas prévu pour téléphone
     navbar_items.forEach(el => el.innerText.toLowerCase() == "timeline" ? el.remove() : null);
