@@ -65,7 +65,7 @@ export default [
     },
     {
         "date": "depuis mes 6 ans",
-        "content": "Je démonte pleins d'appareils électroniques, j'ai failli me faire életrocuter plusieurs fois (vive les disjoncteurs sans lesquels je ne serais peut-être plus là). J'avais aussi un oncle qui m'a fait découvrir son métier d'éléctronicien."
+        "content": "Je démonte pleins d'appareils électroniques, j'ai failli me faire életrocuter plusieurs fois (vive les disjoncteurs sans lesquels je ne serais peut-être plus là). J'ai aussi un oncle qui m'a fait découvrir son métier d'éléctronicien."
     },
     {
         "date": "Juillet 1996",
