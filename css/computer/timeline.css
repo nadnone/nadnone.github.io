@@ -5,7 +5,7 @@
     {
         display: none;
         position: absolute;
-        height: max-content;
+        height: min-content;
         width: 80%;
         left: 100%;
         background-color: var(--secondary_dark);
@@ -19,7 +19,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 10%;
+        margin-bottom: 10em;
     }
 
     #timeline .rule
@@ -40,6 +40,7 @@
         background-color: var(--text_on_primary);
     }
 
+
     #timeline .rule .circle:nth-child(2)
     {
        transform: translateX( -40% ) translateY(calc(100% + 35.5em));
@@ -56,12 +57,16 @@
     {
         margin-top: 1%;
         width: calc(50% - 5em);
-        height: 35%;
     }
 
     #timeline .left
     {
-        transform: translateY(140%);
+        transform: translateY(calc(30em + 7em ));
+    }
+
+    #timeline .left:last-of-type
+    {
+        height: 0;
     }
 
     #timeline .content
