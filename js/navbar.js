@@ -9,8 +9,8 @@ function navbar() {
         
         navbar_items.forEach((item) => {
 
-            item.classList.toggle("show_navbar");
-            item.classList.toggle("visible");
+            //item.classList.toggle("show_navbar");
+            //item.classList.toggle("visible");
             
             item.addEventListener("click", (event) => {
                 
@@ -28,7 +28,7 @@ function navbar() {
 
 function open_tab()
 {
-    document.querySelector(".scroller").classList.add("display_block");
+    //document.querySelector(".scroller").classList.add("display_block");
     document.documentElement.classList.add("scroll_active");
     window.scrollTo(0,0)
 }
@@ -86,12 +86,14 @@ function cometo(where)
         case "contact":
             document.querySelector("#contact .picture").classList.add("spin");
             open_tab();
-            document.querySelector(".scroller").classList.remove("display_block");
-            document.documentElement.classList.remove("scroll_active");
+
+            // scroll button
+            //document.querySelector(".scroller").classList.remove("display_block");
+            //document.documentElement.classList.remove("scroll_active");
             break;
 
         default:
-            document.querySelector(".scroller").classList.remove("display_block");
+            //document.querySelector(".scroller").classList.remove("display_block");
             document.documentElement.classList.remove("scroll_active");
             window.scrollTo(0,0)
             break;

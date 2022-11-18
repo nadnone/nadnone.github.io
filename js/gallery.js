@@ -32,7 +32,7 @@ export default function loadgallery()
 
 }
 
-
+/*
 let factor = gallery_data.length;
 
 document.querySelector(".arrow_down").addEventListener("click", () => {
@@ -50,3 +50,4 @@ document.querySelector(".arrow_up").addEventListener("click", () => {
     window.scrollBy(0, -y)
         
 });
+*/

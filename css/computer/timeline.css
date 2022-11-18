@@ -43,7 +43,7 @@
        transform: translateX( -40% ) translateY(calc(100% + 35.5em));
     }
 
-    #timeline .last .circle:nth-child(2)
+    #timeline .last .circle:last-of-type
     {
         border-radius: 0;
         background-color: var(--primary);

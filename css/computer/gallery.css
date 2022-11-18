@@ -31,6 +31,8 @@
         border-radius: 5px;
     }
 
+    /*
+
     .scroller {
         display: none;
         position: fixed;
@@ -62,4 +64,5 @@
     .scroller .arrow_down {
         top: 450pt;
     }
+    */
 }

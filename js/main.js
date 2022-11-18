@@ -4,6 +4,7 @@ import {themes_load} from './themes.js'
 import mobile_fun from "./mobile.js"
 import loadSkills from "./skills.js"
 import timeline from "./timeline.js"
+import "./write_console.js"
 
 themes_load()
 loadgallery()
@@ -16,7 +17,7 @@ if (window.innerWidth < 1201)
 else 
 {
     timeline();
-    loadSkills()
+    //loadSkills()
     navbar()
     cometo("contact")
 }
