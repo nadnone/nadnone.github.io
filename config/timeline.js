@@ -1,7 +1,7 @@
 export default [
     {
         "date": "Novembre 2022",
-        "content": "Je découvre les timelines et je décide d'en faire un pour mon porfolio ! =_0"
+        "content": "Je découvre les timelines et je décide d'en faire une pour mon porfolio ! =_0"
     },
     {
         "date": "fin Octobre 2022",
