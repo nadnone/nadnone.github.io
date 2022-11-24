@@ -23,7 +23,11 @@ function terminal_run()
     
         terminal.innerText = random_tmp
     
-        if (random_tmp === random_text) clearInterval(stop_this)
+        if (random_tmp === random_text) {
+            
+            clearInterval(stop_this)
+            terminal_run();
+        } 
     
     }, 250);
 
@@ -32,4 +36,3 @@ function terminal_run()
 }
 
 terminal_run()
-setInterval(terminal_run, 6000)
