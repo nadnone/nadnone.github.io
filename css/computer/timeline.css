@@ -19,7 +19,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 10em;
     }
 
     #timeline .rule
@@ -34,7 +33,7 @@
         content: " ";
         width: 1.5em;
         height: 1.5em;
-        transform: translateX( -40% ) translateY(3.5em);
+        transform: translateX( -40% ) translateY(13em);
         border-radius: 50%;
         border: 0.5em solid var(--primary);
         background-color: var(--text_on_primary);
@@ -43,25 +42,22 @@
 
     #timeline .rule .circle:nth-child(2)
     {
-       transform: translateX( -40% ) translateY(calc(100% + 35.5em));
-    }
-
-    #timeline .last .circle:last-of-type
-    {
-        border-radius: 0;
-        background-color: var(--primary);
-        border-color: var(--text_on_primary);
+       transform: translateX( -40% ) translateY(calc(100% + 45em));
     }
 
     #timeline .container
     {
-        margin-top: 1%;
-        width: calc(50% - 5em);
+        width: calc(50% - 10em);
+        margin: 10em 0;
     }
 
+    #timeline .right
+    {
+        transform: translateY(calc(30em + 7em)) translateX(-5em);
+    }
     #timeline .left
     {
-        transform: translateY(calc(30em + 7em ));
+         transform: translateX(5em);
     }
 
     #timeline .left:last-of-type
@@ -85,7 +81,7 @@
         margin-bottom: 35%;
     }
 
-    #timeline .right::after
+    #timeline .left::after
     {
         content: " ";
         border: 3.1em solid;
@@ -93,7 +89,7 @@
         transform: translateY(-19em) translateX(6.1em);
         border-color: transparent transparent transparent var(--text_on_primary);
     }
-    #timeline .left::after
+    #timeline .right::after
     {
         content: " ";
         border: 3.1em solid;

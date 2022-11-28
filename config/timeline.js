@@ -20,20 +20,8 @@ export default [
         "content": "Je commence à faire du bénévolat pour une association romande oú je m'y sens bien"
     },
     {
-        "date": "hiver 2021",
-        "content": "Je reprend des démarches AI pour une réinsersion. cela ne me plait pas, je pars"
-    },
-    {
         "date": "courant 2021",
         "content": "Je consacre énormément de temps à vouloir comprendre et afficher des objets en 3D via OpenGL 4.5, et j'y parvient !"
-    },
-    {
-        "date": "Octobre 2021",
-        "content": "Je bloque devant un chapitre, après avoir réussi près de la moitié du cours. Je me désinscrit et j'arrête le cours, j'ai néamoins beaucoup appris."
-    },
-    {
-        "date": "Août 2021",
-        "content": "J'essaie de trouver des alternatives pour m'insérer professionellement, je tente une formation EDX, CS50x"
     },
     {
         "date": "fin 2018",

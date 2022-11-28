@@ -7,8 +7,8 @@ export default function timeline()
     for (let i = 0; i < data.length; i++)
     {
         let container = document.createElement("div");
-        if (i % 2 > 0) container.className = "container left"
-        else container.className = "container right"
+        if (i % 2 > 0) container.className = "container right"
+        else container.className = "container left"
 
         let content = document.createElement("div")
         content.className = "content"
