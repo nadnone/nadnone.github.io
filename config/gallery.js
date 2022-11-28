@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "Chip8 emulator (Nov. 2022)",
+        "desc": "Un émulateur chip8 de plus.. :D",
+        "link": "https://github.com/nadnone/chip8_emu",
+        "image": "https://github.com/nadnone/chip8_emu/blob/master/demo/demo.gif?raw=true"
+    },
+    {
         "title": "Tiny bootloader (Nov. 2022)",
         "desc": "Simple bootloader pour architecture x86",
         "link": "https://github.com/nadnone/tiny_bootloader",
