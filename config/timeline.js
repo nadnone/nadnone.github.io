@@ -4,10 +4,6 @@ export default [
         "content": "Je découvre les timelines et je décide d'en faire une pour mon porfolio ! =_0"
     },
     {
-        "date": "fin Octobre 2022",
-        "content": "Début de travaux d'insertion via une fondation de mon canton"
-    },
-    {
         "date": "Octobre 2022",
         "content": "Je commence à trouver quelques alternatives pour avancer professionnellement, je choisi donc à commun accord d'arrêter mon bénévolat pour me consacrer à mes projets"
     },
