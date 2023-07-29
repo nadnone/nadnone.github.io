@@ -1,15 +1,15 @@
 export default [  
     {
+        "title": "Chip8 emulator (Jul. 2023)",
+        "desc": "Un émulateur chip8 de plus.. :D",
+        "link": "https://github.com/nadnone/chip8_emu",
+        "image": "https://github.com/nadnone/chip8_emu/blob/master/demo/demo.gif?raw=true"
+    },
+    {
         "title": "Game test 3D Polygon (Jul. 2023)",
         "desc": "Tiny 3D Game engine for learning",
         "link": "https://github.com/nadnone/game_test_3D_polygon",
         "image": "https://github.com/nadnone/game_test_3D_polygon/raw/main/demos/camera_move_around.gif"
-    },
-    {
-        "title": "Chip8 emulator (Nov. 2022)",
-        "desc": "Un émulateur chip8 de plus.. :D",
-        "link": "https://github.com/nadnone/chip8_emu",
-        "image": "https://github.com/nadnone/chip8_emu/blob/master/demo/demo.gif?raw=true"
     },
     {
         "title": "Tiny bootloader (Nov. 2022)",
