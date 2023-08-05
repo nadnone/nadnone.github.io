@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "Simple OS (Auût. 2023)",
+        "desc": "Simple bootloader pour architecture x86",
+        "link": "https://github.com/nadnone/simple_os",
+        "image": "https://github.com/nadnone/simple_os/blob/master/demo/demo.png?raw=true"
+    },
+    {
         "title": "Chip8 emulator (Jul. 2023)",
         "desc": "Un émulateur chip8 de plus.. :D",
         "link": "https://github.com/nadnone/chip8_emu",
@@ -11,12 +17,7 @@ export default [
         "link": "https://github.com/nadnone/game_test_3D_polygon",
         "image": "https://github.com/nadnone/game_test_3D_polygon/raw/main/demos/camera_move_around.gif"
     },
-    {
-        "title": "Tiny bootloader (Nov. 2022)",
-        "desc": "Simple bootloader pour architecture x86",
-        "link": "https://github.com/nadnone/tiny_bootloader",
-        "image": "https://github.com/nadnone/tiny_bootloader/blob/master/demo/demo.png?raw=true"
-    },
+
     {
         "title": "Sobel Filter (Nov. 2022)",
         "desc": "Simple Sobel filter algorithm",
