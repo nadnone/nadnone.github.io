@@ -5,7 +5,7 @@ export default [
     },
     {
         "date": "Octobre 2022",
-        "content": "Je commence à trouver quelques alternatives pour avancer professionnellement, je choisi donc à commun accord d'arrêter mon bénévolat pour me consacrer à mes projets"
+        "content": "Fin de mon bénévolat"
     },
     {
         "date": "Août 2022",
@@ -49,7 +49,7 @@ export default [
     },
     {
         "date": "depuis mes 6 ans",
-        "content": "Je démonte pleins d'appareils électroniques, j'ai failli me faire életrocuter plusieurs fois (vive les disjoncteurs sans lesquels je ne serais peut-être plus là). J'ai aussi un oncle qui m'a fait découvrir son métier d'éléctronicien."
+        "content": "Je démonte pleins d'appareils électroniques, j'ai failli me faire életrocuter plusieurs fois (vive les DDR sans lesquels je ne serais peut-être plus là). J'ai aussi un oncle qui m'a fait découvrir son métier d'éléctronicien."
     },
     {
         "date": "Juillet 1996",

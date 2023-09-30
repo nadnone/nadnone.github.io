@@ -86,7 +86,7 @@
         content: " ";
         border: 3.1em solid;
         float: right;
-        transform: translateY(-19em) translateX(6.1em);
+        transform: translateY(-19em) translateX(6em);
         border-color: transparent transparent transparent var(--text_on_primary);
     }
     #timeline .right::after
