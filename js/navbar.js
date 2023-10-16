@@ -1,6 +1,9 @@
 import { menu_id, menu_index } from "../config/menu.js"
 
+let standby = false;
+
 function navbar() {
+
 
     let logo_navbar = document.querySelector(".navbar.logo")
     let navbar_items = document.querySelectorAll(".navbar.items")
@@ -15,10 +18,10 @@ function navbar() {
         item.innerText = menu
 
         item.addEventListener("click", (event) => {
-            
+
             let target = event.target.innerText;
             cometo(target);
-
+            
         });
 
         logo_navbar.appendChild(item)
@@ -52,6 +55,11 @@ function open_tab()
 
 function cometo(where)
 {
+    // pour empecher le bus de translation
+    if (standby) return;
+    standby = true;
+    // ..................................
+
     where = where.toLowerCase();
 
     const choosed = menu_id[menu_index[where]];
@@ -66,6 +74,8 @@ function cometo(where)
 
             setTimeout(() => {
                 other.style.display = ""
+
+                standby = false; // bug translation fix
             }, 1500)
         }
         

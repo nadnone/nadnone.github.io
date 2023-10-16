@@ -1,5 +1,11 @@
 export default [  
     {
+        "title": "Solar system THREE.js (Oct. 2023)",
+        "desc": "Système solaire avec ThreeJS",
+        "link": "https://nadnone.github.io/solar_system/",
+        "image": "https://github.com/nadnone/solar_system/blob/master/res/demo.gif?raw=true"
+    },
+    {
         "title": "Simple OS (Auût. 2023)",
         "desc": "Simple bootloader pour architecture x86",
         "link": "https://github.com/nadnone/simple_os",
