@@ -1,11 +1,19 @@
 export default [
     {
+        "date": "Octobre 2023",
+        "content": "Courant 2023, j'ai cherché du travail dans diverses branches, malheureusement je n'ai jamais eu de retours favorables, je me suis donc resigné pour le moment. Je reprend un peu la programmation pour m'occuper, en faisant un système solaire simple avec Three.js. A ce moment, ma rente deviens une rente entière."
+    },
+    {
+        "date": "Décembre 2022 / Janvier 2023",
+        "content": "J'envoie ma lettre de démission à Alfaset car en plus de ne pas m'y sentir à ma place, je m'y sens mal à l'aise et les projets que la fondation à pour moi ne me sont pas vraiment les miens."
+    },
+    {
         "date": "Novembre 2022",
         "content": "Je découvre les timelines et je décide d'en faire une pour mon porfolio ! =_0"
     },
     {
         "date": "Octobre 2022",
-        "content": "Fin de mon bénévolat"
+        "content": "Je finis mon dénévolat dans le but de commencer des activités à la fondation Alfaset. Je commence des travaux avec essais de 3 mois, le fonctionnement de cette fondation ne me plait pas et je ne m'y sens pas à ma place. Malgrès tout, j'effectue les tâches qui me sont assignés."
     },
     {
         "date": "Août 2022",
@@ -20,8 +28,12 @@ export default [
         "content": "Je consacre énormément de temps à vouloir comprendre et afficher des objets en 3D via OpenGL 4.5, et j'y parvient !"
     },
     {
+        "date": "Début 2020",
+        "content": "Je déménage de nouveau sur Neuchâtel, ce moment marque aussi le début de ma rente à 1/3"
+    },
+    {
         "date": "fin 2018",
-        "content": "Je dois faire un CFC en informatique, je découvre en moi une phobie scolaire; Je dois arrêter ma formation et m'occuper de moi"
+        "content": "Je dois faire un CFC en informatique, je découvre en moi une phobie scolaire; Je dois arrêter ma formation et m'occuper de moi."
     },
     {
         "date": "début 2018",
@@ -29,7 +41,7 @@ export default [
     },
     {
         "date": "2016",
-        "content": "Début de problèmes de santé, je dois abandonner mes études"
+        "content": "Début de problèmes de santé, je dois abandonner mes études. Ce moment marque mon début avec l'assurance invalidité"
     },
     {
         "date": "2015",
@@ -41,7 +53,7 @@ export default [
     },
     {
         "date": "Août 2012",
-        "content": "Je commence une formation d'électronicien au CPLN, je le vis mal. Je suis en dépression à ce moment là"
+        "content": "Je commence une formation d'électronicien au CPLN (Actuel CPNE), je le vis mal. Je suis en dépression à ce moment là"
     },
     {
         "date": "à mes 10-12 ans",
