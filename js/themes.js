@@ -1,11 +1,10 @@
 import themes_list from "../config/themes.js";
 
-let title = document.getElementById("theme_title");
 let style = document.documentElement.style;
 
 export function themes_load(param) {
 
-    let l = themes_list.length - 2;
+    let l = themes_list.length - 2; // purple
 
 
     if (param != null) l = param;

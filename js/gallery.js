@@ -31,23 +31,3 @@ export default function loadgallery()
     }
 
 }
-
-/*
-let factor = gallery_data.length;
-
-document.querySelector(".arrow_down").addEventListener("click", () => {
-
-    let y = document.querySelector("#gallery").scrollHeight/factor
-
-    window.scrollBy(0, y)
-        
-
-});
-
-document.querySelector(".arrow_up").addEventListener("click", () => {
-
-    let y = document.querySelector("#gallery").scrollHeight/factor
-    window.scrollBy(0, -y)
-        
-});
-*/

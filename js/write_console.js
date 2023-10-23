@@ -3,36 +3,35 @@ import write_list from "../config/sitewrite_list.js"
 
 let terminal = document.querySelector("#write_console")
 
+let current_console_line = 0;
 
-function terminal_run()
+export default function terminal_run()
 {
-        
-    let rand = Math.floor(Math.random() * write_list.length)
-
-    let random_text = write_list[rand];
+    let text = write_list[current_console_line++];
 
     let cursor = 0
 
     let stop_this = setInterval(() => {
 
-        let rand_char = Math.floor(Math.random() * 3)
-
-        cursor += rand_char
+        cursor += Math.floor(Math.random() * 3)
     
-        let random_tmp = random_text.slice(0, cursor) 
+        let random_tmp = text.slice(0, cursor) 
     
-        terminal.innerText = random_tmp
+        terminal.innerText = `:~$ ${random_tmp}`
     
-        if (random_tmp === random_text) {
+        if (random_tmp === text) {
             
             clearInterval(stop_this)
             terminal_run();
-        } 
+        }
+        
+        if (current_console_line >= write_list.length)
+        {
+            current_console_line = 1;
+        }
     
     }, 250);
 
   
     
 }
-
-terminal_run()

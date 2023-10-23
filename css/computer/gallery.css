@@ -31,38 +31,5 @@
         border-radius: 5px;
     }
 
-    /*
-
-    .scroller {
-        display: none;
-        position: fixed;
-        top: 250pt;
-        left: 50pt;
-        height: 50%;
-    }
-
-    .scroller .arrows {
-        position: fixed;
-        color: var(--text_on_primary);
-        background-color: var(--primary_dark);
-        height: 120pt;
-        width: 120pt;
-        font-size: 64pt;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        transform: rotate(90deg);
-        user-select: none;
-    }
-
-    .scroller .arrows:hover
-    {
-        background-color: var(--primary_light);
-    }
-
-    .scroller .arrow_down {
-        top: 450pt;
-    }
-    */
+  
 }

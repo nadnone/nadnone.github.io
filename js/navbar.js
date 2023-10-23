@@ -7,9 +7,9 @@ function navbar() {
 
     let logo_navbar = document.querySelector(".navbar.logo")
     let navbar_items = document.querySelectorAll(".navbar.items")
-    
     logo_navbar.classList.add("spin")
 
+    
     for (const menu in menu_index) {
         let item = document.createElement("div")
         item.classList.add("navbar")
@@ -30,9 +30,6 @@ function navbar() {
     
     navbar_items.forEach((item) => {
 
-        //item.classList.toggle("show_navbar");
-        //item.classList.toggle("visible");
-        
         item.addEventListener("click", (event) => {
             
             let target = event.target.innerText;
@@ -48,14 +45,13 @@ function navbar() {
 
 function open_tab()
 {
-    //document.querySelector(".scroller").classList.add("display_block");
     document.documentElement.classList.add("scroll_active");
     window.scrollTo(0,0)
 }
 
 function cometo(where)
 {
-    // pour empecher le bus de translation
+    // pour empecher le bug de translation
     if (standby) return;
     standby = true;
     // ..................................
@@ -76,52 +72,23 @@ function cometo(where)
                 other.style.display = ""
 
                 standby = false; // bug translation fix
+                
             }, 1500)
         }
         
     }
 
-    let div = document.querySelector(`#${choosed}`);
-    div.style.display = "flex";
+    let selected_div = document.querySelector(`#${choosed}`);
+    selected_div.style.display = "flex";
 
     setTimeout(() => {
-        div.classList.add("come_back");
+        selected_div.classList.add("come_back");
+
+        // spin my head because this is funny
+        document.querySelector("#contact .picture").classList.toggle("spin");
     }, 1500);
 
-
-
-
-    // spin because this is funny to see ma face spinning 
-    switch(choosed)
-    {
-        case "gallery":
-            document.querySelector("#contact .picture").classList.toggle("spin");
-            open_tab();
-            break;
-
-        case "timeline":
-            document.querySelector("#contact .picture").classList.toggle("spin");
-            open_tab();
-            break
-
-        case "contact":
-            open_tab();
-
-            setTimeout(() => {
-                document.querySelector("#contact .picture").classList.toggle("spin");
-            }, 1500);
-
-            // scroll button
-            //document.querySelector(".scroller").classList.remove("display_block");
-            //document.documentElement.classList.remove("scroll_active");
-            break;
-
-        default:
-            //document.querySelector(".scroller").classList.remove("display_block");
-            document.documentElement.classList.remove("scroll_active");
-            window.scrollTo(0,0)
-            break;
-    }
+    open_tab();
 
 }
 
