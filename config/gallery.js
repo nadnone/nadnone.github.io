@@ -80,6 +80,12 @@ export default [
         "image": "https://github.com/nadnone/affichage_numerique_web/raw/main/demo/7.png"
     },
     {
+        "title": "DactyloLibre C# (Sep. 2020)",
+        "desc": "logiciel de dactylographie",
+        "link": "https://nadnone.github.io/DactyloLibre-CsharpVersion/",
+        "image": "https://nadnone.github.io/DactyloLibre-CsharpVersion/demo/demo.gif"
+    },
+    {
         "title": "chat-server (~2016)",
         "desc": "It originally was a personal challenge, I had to communicate two computers through the network in 2016 with my own program. This is a basic one, but it enhanced my skills with the network. More on GitHub.",
         "link": "https://github.com/nadnone/SocketChatPy",
