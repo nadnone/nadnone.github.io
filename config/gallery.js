@@ -6,7 +6,7 @@ export default [
         "image": "https://github.com/nadnone/solar_system/blob/master/res/demo.gif?raw=true"
     },
     {
-        "title": "Simple OS (Auût. 2023)",
+        "title": "Simple OS (Août. 2023)",
         "desc": "Simple bootloader pour architecture x86",
         "link": "https://github.com/nadnone/simple_os",
         "image": "https://github.com/nadnone/simple_os/blob/master/demo/demo.gif?raw=true"
@@ -31,13 +31,13 @@ export default [
         "image": "https://github.com/nadnone/sobel_filter/blob/master/output.jpg?raw=true"
     },
     {
-        "title": "polygon renderer (Sep. 2022)",
+        "title": "Polygon renderer (Sep. 2022)",
         "desc": "Tiny 3D engine for learning",
         "link": "https://github.com/nadnone/polygon_renderer",
         "image": "https://github.com/nadnone/polygon_renderer/blob/main/res/all.gif?raw=true"
     },
     {
-        "title": "demo_things (Août 2022)",
+        "title": "Demo_things (Août 2022)",
         "desc": "A compile of codes",
         "link": "https://github.com/nadnone/demo_things",
         "image": "https://github.com/nadnone/demo_things/raw/main/3D_test/res/cube_3d.gif"
@@ -86,7 +86,7 @@ export default [
         "image": "https://nadnone.github.io/DactyloLibre-CsharpVersion/demo/demo.gif"
     },
     {
-        "title": "chat-server (~2016)",
+        "title": "Chat-server (~2016)",
         "desc": "It originally was a personal challenge, I had to communicate two computers through the network in 2016 with my own program. This is a basic one, but it enhanced my skills with the network. More on GitHub.",
         "link": "https://github.com/nadnone/SocketChatPy",
         "image": "res/screenshot_socketchatpy.jpg"

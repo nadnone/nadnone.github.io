@@ -13,7 +13,7 @@ export default function terminal_run()
 
     let stop_this = setInterval(() => {
 
-        cursor += Math.floor(Math.random() * 3)
+        cursor += Math.floor(Math.random() * 2)
     
         let random_tmp = text.slice(0, cursor) 
     
@@ -30,7 +30,7 @@ export default function terminal_run()
             current_console_line = 1;
         }
     
-    }, 250);
+    }, 100);
 
   
     
