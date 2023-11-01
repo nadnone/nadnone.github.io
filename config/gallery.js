@@ -9,7 +9,7 @@ export default [
         "title": "Simple OS (Auût. 2023)",
         "desc": "Simple bootloader pour architecture x86",
         "link": "https://github.com/nadnone/simple_os",
-        "image": "https://github.com/nadnone/simple_os/blob/master/demo/demo.png?raw=true"
+        "image": "https://github.com/nadnone/simple_os/blob/master/demo/demo.gif?raw=true"
     },
     {
         "title": "Chip8 emulator (Jul. 2023)",
