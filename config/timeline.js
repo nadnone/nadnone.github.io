@@ -1,5 +1,9 @@
 export default [
     {
+        "date": "Mars 2024",
+        "content": "Je découvre en croisant mes sources, que une histoire concernant des coups de feu dans ma maison quand j'avais entre 0 et 4 ans est probablement vraie.."
+    },
+    {
         "date": "Octobre 2023",
         "content": "Courant 2023, j'ai cherché du travail dans diverses branches, malheureusement je n'ai jamais eu de retours favorables, je me suis donc resigné pour le moment. Je reprend un peu la programmation pour m'occuper, en faisant un système solaire simple avec Three.js. A ce moment, ma rente deviens une rente entière."
     },
@@ -33,7 +37,7 @@ export default [
     },
     {
         "date": "fin 2018",
-        "content": "Je dois faire un CFC en informatique, je découvre en moi une phobie scolaire; Je dois arrêter ma formation et m'occuper de moi."
+        "content": "Je dois faire un CFC en informatique, je redécouvre en moi mes traumatismes scolaires; Je dois arrêter ma formation et m'occuper de moi."
     },
     {
         "date": "début 2018",
@@ -41,7 +45,7 @@ export default [
     },
     {
         "date": "2016",
-        "content": "Début de problèmes de santé, je dois abandonner mes études. Ce moment marque mon début avec l'assurance invalidité"
+        "content": "Je fais un burnout de l'école, je cherche à fuir de chez mes parents, je vis une histoire d'amour douteuse qui m'achève psychologiquement. Ce moment marque mon début avec l'assurance invalidité"
     },
     {
         "date": "2015",
@@ -61,7 +65,11 @@ export default [
     },
     {
         "date": "depuis mes 6 ans",
-        "content": "Je démonte pleins d'appareils électroniques, j'ai failli me faire életrocuter plusieurs fois (vive les DDR sans lesquels je ne serais peut-être plus là). J'ai aussi un oncle qui m'a fait découvrir son métier d'éléctronicien."
+        "content": "Je commence l'école obligatoire avec cette histoire, encore fraichement traumatisé et sans être soigné. Je me fais harceller pendant l'ensemble de ma scolarité obligatoire. à côté de l'école, je me découvre un hobby pour l'électronique et l'informatique, qui sera ma résilience.."
+    },
+    {
+        "date": "Entre 0 et 4 ans",
+        "content": "Quelque chose d'assez important s'est passé dans ma vie, je ne sais pas encore exactement quoi. Mais je sais que des coups de feu on été tiré dans notre maison et qu'il y a eu de violentes disputes entre mes parents."
     },
     {
         "date": "Juillet 1996",
